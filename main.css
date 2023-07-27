@@ -1,0 +1,106 @@
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+        body{
+            font-family: 'Roboto', sans-serif;
+            width: 100vw;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #161d34;
+        }
+        section{
+            max-width: 100vw;
+            overflow: hidden;
+        }
+        header{
+            background-color: #db3106;
+        }
+        header ul li a {
+            text-decoration: none;
+        }
+        header .nav .nav-link{
+            color: #ffffff;
+        }
+        header .nav .nav-link:hover,
+        header .nav .nav-link.active:hover{
+            background-color: #474545fd;
+            color: #fefefe;
+        }
+        header .nav .nav-link.active,
+        header .nav .nav-link.active i{
+            background-color: #fefefe;
+            color: #282728;
+        }
+        header .nav li{
+            margin-left: 12px;
+        }
+        .h1,
+        .h1:hover{
+            font-style: italic;
+            font-family: 'Josefin Sans', sans-serif;
+            color: #ffffff;
+            font-size: 36px;
+        }
+        #sobreAloja,
+        #veiculos{
+            background-color: #eeeeee;
+        }
+        #sobreAloja .carousel img{
+            width: 100vw;
+            height: 100vh;
+            overflow-y: hidden;
+        }
+        h4 i,
+        #veiculos i,
+        header i{
+            margin-right: 8px;
+            color: #fefefe;
+        }
+        #veiculos img{
+            align-content: center;
+            max-width: 90%;
+            height: 200px;
+            overflow-y: hidden;
+        }
+        .btn-color,
+        .btn-color:hover{
+            background-color: #db3106;
+            color: #fefefe;
+            font-weight: bold;
+        }
+        #veiculos .col-md-4{
+            display: flex;
+            flex-direction: column;
+        }
+        .text-colored,
+        .text-colored i{
+            color: #db3106;
+            font-weight: bold;
+        }
+        .nav-veiculos .nav-link.active,
+        .nav-veiculos .nav-link.active:hover{
+            width: 100%;
+            background-color: #db3106;
+            color: #fefefe;
+        }
+        .nav-veiculos  .nav-link:hover{
+            color: #db3106;
+        }
+        #veiculos, #contatos{
+            height: 70vh;
+            display: flex;
+            align-items: center;
+        }
+        .margin-button{
+            margin:auto;
+        }
+        .margin-button:hover{
+            background-color: #db3106;
+            color: #fefefe;
+        }
+        #modal{
+            text-align: center;
+        }
